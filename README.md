@@ -20,3 +20,8 @@ OS name: "linux", version: "6.15.8-200.fc42.x86_64", arch: "amd64", family: "uni
 
 The library seems susceptible to the java version *and vendor*. The above configuration works on my machine.
 
+To run test:
+```sh
+mvn test
+```
+
